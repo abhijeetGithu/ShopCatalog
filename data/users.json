@@ -1,0 +1,34 @@
+[
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "+1 (555) 123-4567",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "promotions": true
+      },
+      "addresses": [
+        {
+          "id": "addr1",
+          "type": "Home",
+          "street": "123 Main St",
+          "city": "San Francisco",
+          "state": "CA",
+          "zipCode": "94103",
+          "country": "United States",
+          "isDefault": true
+        }
+      ],
+      "paymentMethods": [
+        {
+          "id": "pm1",
+          "type": "Credit Card",
+          "last4": "4242",
+          "expiryDate": "12/25",
+          "isDefault": true
+        }
+      ]
+    }
+  ]
